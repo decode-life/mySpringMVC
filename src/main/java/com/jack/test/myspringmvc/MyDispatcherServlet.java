@@ -2,7 +2,6 @@ package com.jack.test.myspringmvc;
 
 import com.jack.test.myspringmvc.annotation.MyController;
 import com.jack.test.myspringmvc.annotation.MyRequestMapping;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLBoundOperation;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -12,9 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
-import java.lang.reflect.Parameter;
 import java.net.URL;
 import java.util.*;
 
